@@ -1,0 +1,76 @@
+/* Resets the box size of every element */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Gives the body element a parent height to compare against */
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  line-height: 1;
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 200%;
+}
+
+/* Matches the font of special elements to the rest of the page */
+input, select, option, optgroup, textarea, button,
+pre, code {
+  font-size: 100%;
+  font-family: inherit;
+}
+
+/* Removes default bullet points from lists */
+ol, ul {
+  list-style: none;
+}
+
+
+header {
+    display: flex;
+    text-align: center;
+    height: 80px;
+    width: 100vw;
+    background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.list{
+    margin: 20px;
+}
+
+.list-item{
+    text-align: center;
+}
+/* .dashboard{
+    border: black solid 2px;
+    padding: 10px;
+} */
+.forecast{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+background-color: skyblue;
+Color: white;
+}
