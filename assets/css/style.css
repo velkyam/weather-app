@@ -53,24 +53,30 @@ main{
     display: flex;
     flex-direction: column;
     margin: 20px;
+    width: 300px;
 }
 
 .list{
-    margin: 20px;
+    margin-top: 20px;
 }
 
 .list-item{
     text-align: center;
 }
-/* .dashboard{
-    border: black solid 2px;
+.dashboard{
+    border: black solid 1px;
     padding: 10px;
-} */
-.forecast{
-    display: flex;
-    justify-content: space-between;
+    margin: 20px;
+  }
+  .forecast{
+    margin: 20px;
+}
+#forecastTit{
+  margin: 20px;
 }
 .card{
-background-color: skyblue;
+background-color: grey;
 Color: white;
+padding: 40px 20px;
+margin: 20px;
 }

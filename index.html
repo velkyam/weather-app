@@ -14,37 +14,26 @@
         <h1>Weather Dashboard</h1>
     </header>
     <main>
-    <section id="container" class="col-sm-2">
+    <section id="container">
     <label for="city"><h2>Search for a City:</h2></label>
     <br>
     <input type="text" placeholder="City" id="cityInput"> </input>
     <br>
     <button type="button" class="btn btn-primary" id="search">Search</button>
 
-    <ul class="list-group list">
-        <li id="city0"></li>
-        <li id="city1"></li>
-        <li id="city2"></li>
-        <li id="city3"></li>
-        <li id="city4"></li>
-        <li id="city5"></li>
-        <li id="city6"></li>
-        <li id="city7"></li>
-        <li id="city8"></li>
-        <li id="city9"></li>
+    <ul class="list-group list" id='listCities'>
+       
     </ul>
     </section>
-    <div class="col">
-    <div class="col-sm-10 dashboard" id="dashBoard">
-        <h1 id="heading"></h1>
-        <p id="temp"></p>
-        <p id="wind"></p>
-        <p id="hum"></p>
+
+    <div class="col-sm-9">
+        <div class="col-sm-10" id="dashBoard">
+        </div>
+        <h2 id="forecastTit"></h2>
+        <div class="forecast d-flex" id="forecast">
+        </div>
     </div>
-    <h2 id="forecastTit"></h2>
-    <div class="col-sm-6 forecast" id="forecast">
-    </div>
-    </div>
+
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./assets/js/script.js"></script>
